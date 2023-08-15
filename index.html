@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="./css/david.css" rel="stylesheet" >
+  </head>
+  <body>
+    
+        <section class="position-relative bg-white overflow-hidden"
+            style="background-image: url('flex-assets/elements/pattern-light.png')">
+            <div class="position-absolute top-0 start-0 h-100 w-100"
+                style="background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);"></div>
+            <div class="position-relative">
+                <nav class="navbar navbar-dark navbar-expand-lg py-5 py-lg-1">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img class="img-fluid" src="https://shuffle.dev/flex-assets/logos/flex-dark-green.svg" alt="">
+                        </a>
+                        <div class="collapse navbar-collapse justify-content-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item p-6"><a class="nav-link link-secondary p-0" href="#">Product</a></li>
+                                <li class="nav-item p-6"><a class="nav-link link-secondary p-0" href="#">Features</a></li>
+                                <li class="nav-item p-6"><a class="nav-link link-secondary p-0" href="#">Pricing</a></li>
+                                <li class="nav-item p-6"><a class="nav-link link-secondary p-0" href="#">Resources</a></li>
+                            </ul>
+                        </div>
+                        <div class="d-none d-lg-block">
+                            <div class="row align-items-center g-6">
+                                <div class="col-auto"><a class="fs-11 link-secondary fw-medium" href="#">Log In</a></div>
+                                <div class="col-auto"><a class="btn btn-sm btn-success text-success-light shadow" href="#">Sign
+                                        Up</a></div>
+                            </div>
+                        </div>
+                        <div class="d-lg-none">
+                            <a class="btn navbar-burger p-0" href="#">
+                                <svg width="35" height="35" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect class="text-light-light" width="32" height="32" rx="6" fill="currentColor"></rect>
+                                    <path class="text-secondary"
+                                        d="M7 12H25C25.2652 12 25.5196 11.8946 25.7071 11.7071C25.8946 11.5196 26 11.2652 26 11C26 10.7348 25.8946 10.4804 25.7071 10.2929C25.5196 10.1054 25.2652 10 25 10H7C6.73478 10 6.48043 10.1054 6.29289 10.2929C6.10536 10.4804 6 10.7348 6 11C6 11.2652 6.10536 11.5196 6.29289 11.7071C6.48043 11.8946 6.73478 12 7 12ZM25 15H7C6.73478 15 6.48043 15.1054 6.29289 15.2929C6.10536 15.4804 6 15.7348 6 16C6 16.2652 6.10536 16.5196 6.29289 16.7071C6.48043 16.8946 6.73478 17 7 17H25C25.2652 17 25.5196 16.8946 25.7071 16.7071C25.8946 16.5196 26 16.2652 26 16C26 15.7348 25.8946 15.4804 25.7071 15.2929C25.5196 15.1054 25.2652 15 25 15ZM25 20H7C6.73478 20 6.48043 20.1054 6.29289 20.2929C6.10536 20.4804 6 20.7348 6 21C6 21.2652 6.10536 21.5196 6.29289 21.7071C6.48043 21.8946 6.73478 22 7 22H25C25.2652 22 25.5196 21.8946 25.7071 21.7071C25.8946 21.5196 26 21.2652 26 21C26 20.7348 25.8946 20.4804 25.7071 20.2929C25.5196 20.1054 25.2652 20 25 20Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="d-none navbar-menu position-fixed top-0 start-0 bottom-0 w-75 mw-xs" style="z-index: 9999;">
+                    <div class="navbar-backdrop position-fixed top-0 start-0 end-0 bottom-0 bg-dark" style="opacity: 75%;">
+                    </div>
+                    <nav
+                        class="position-relative h-100 w-100 d-flex flex-column justify-content-between p-6 bg-white overflow-auto">
+                        <div class="d-flex align-items-center">
+                            <a class="me-auto h4 mb-0 text-decoration-none" href="#">
+                                <img class="img-fluid" src="https://shuffle.dev/flex-assets/logos/flex-dark-green.svg" alt="">
+                            </a>
+                            <a class="navbar-close text-secondary" href="#">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6 18L18 6M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="py-16">
+                            <ul class="nav nav-pills flex-column">
+                                <li class="nav-item"><a class="nav-link link-secondary-dark bg-light-light" href="#">Product</a>
+                                </li>
+                                <li class="nav-item"><a class="nav-link link-secondary" href="#">Features</a></li>
+                                <li class="nav-item"><a class="nav-link link-secondary" href="#">Pricing</a></li>
+                                <li class="nav-item"><a class="nav-link link-secondary" href="#">Resources</a></li>
+                            </ul>
+                        </div>
+                        <div class="row align-items-center g-6">
+                            <div class="col-12"><a class="link-secondary fs-11 d-block w-100 text-center fw-medium" href="#">Log
+                                    In</a></div>
+                            <div class="col-12"><a class="btn btn-sm btn-success w-100 text-success-light shadow" href="#">Sign
+                                    Up</a></div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="container">
+                <div class="pt-28 pb-28 position-relative">
+                    <div class="row g-16">
+                        <div class="col-12 col-md-6">
+                            <div class="mw-md-lg">
+                                <span class="mb-4 badge bg-success text-white text-uppercase shadow">Header</span>
+                                <h1 class="mb-6 font-heading fs-4" style="letter-spacing: -1px;">A small business is only as
+                                    good as its tools.</h1>
+                                <p class="mb-8 fs-9 fw-medium text-secondary">We’re different. Flex is the only saas business
+                                    platform that lets you run your business on one platform, seamlessly across all digital
+                                    channels.</p>
+                                <div class="row g-4">
+                                    <div class="col-12 col-md-auto"><a
+                                            class="btn btn-lg btn-success w-100 text-success-light shadow" href="#">Request a
+                                            Demo</a></div>
+                                    <div class="col-12 col-md-auto">
+                                        <div class="bg-white rounded"><a
+                                                class="btn btn-lg btn-outline-light w-100 text-light-dark shadow" href="#">Sign
+                                                Up</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="row justify-content-center">
+                                <div class="position-relative col-auto">
+                                    <img class="position-absolute top-0 start-0 mt-n12 ms-n12" style="z-index: 1;"
+                                        src="https://shuffle.dev/flex-assets/elements/circle-orange.svg" alt="">
+                                    <img class="position-absolute bottom-0 end-0 me-n5 mb-n5" style="z-index: 1;"
+                                        src="https://shuffle.dev/flex-assets/elements/dots-blue.svg" alt="">
+                                    <img class="position-relative img-fluid" src="https://shuffle.dev/flex-assets/images/headers/header.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="position-relative py-28 bg-white overflow-hidden"
+            style="background-image: url('https://shuffle.dev/flex-assets/elements/pattern-light.png')">
+            <div class="position-absolute top-0 start-0 h-100 w-100"
+                style="background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);"></div>
+            <div class="position-relative container" style="z-index: 1;">
+                <div class="row g-16">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="mw-sm mx-auto text-center">
+                            <div class="mb-6 d-flex justify-content-center align-items-center mx-auto text-white bg-success rounded"
+                                style="width: 64px; height: 64px;">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_631_12694)">
+                                        <path
+                                            d="M17 21.63H5C4.20435 21.63 3.44129 21.3139 2.87868 20.7513C2.31607 20.1887 2 19.4257 2 18.63V10.63C2 10.3648 1.89464 10.1104 1.70711 9.9229C1.51957 9.73536 1.26522 9.63 1 9.63C0.734784 9.63 0.48043 9.73536 0.292893 9.9229C0.105357 10.1104 0 10.3648 0 10.63L0 18.63C0 19.9561 0.526784 21.2279 1.46447 22.1655C2.40215 23.1032 3.67392 23.63 5 23.63H17C17.2652 23.63 17.5196 23.5246 17.7071 23.3371C17.8946 23.1496 18 22.8952 18 22.63C18 22.3648 17.8946 22.1104 17.7071 21.9229C17.5196 21.7354 17.2652 21.63 17 21.63ZM21 3.63H7C6.20435 3.63 5.44129 3.94608 4.87868 4.50868C4.31607 5.07129 4 5.83436 4 6.63V16.63C4 17.4257 4.31607 18.1887 4.87868 18.7513C5.44129 19.3139 6.20435 19.63 7 19.63H21C21.7956 19.63 22.5587 19.3139 23.1213 18.7513C23.6839 18.1887 24 17.4257 24 16.63V6.63C24 5.83436 23.6839 5.07129 23.1213 4.50868C22.5587 3.94608 21.7956 3.63 21 3.63V3.63ZM20.59 5.63L14.71 11.51C14.617 11.6037 14.5064 11.6781 14.3846 11.7289C14.2627 11.7797 14.132 11.8058 14 11.8058C13.868 11.8058 13.7373 11.7797 13.6154 11.7289C13.4936 11.6781 13.383 11.6037 13.29 11.51L7.41 5.63H20.59ZM22 16.63C22 16.8952 21.8946 17.1496 21.7071 17.3371C21.5196 17.5246 21.2652 17.63 21 17.63H7C6.73478 17.63 6.48043 17.5246 6.29289 17.3371C6.10536 17.1496 6 16.8952 6 16.63V7L11.88 12.88C12.4425 13.4418 13.205 13.7574 14 13.7574C14.795 13.7574 15.5575 13.4418 16.12 12.88L22 7V16.63Z"
+                                            fill="currentColor"></path>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_631_12694">
+                                            <rect width="24" height="24" fill="currentColor"></rect>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                            <h3 class="font-heading fs-8 mb-4">Measure your performance</h3>
+                            <p class="mb-0 fw-medium text-secondary">Stay connected with your team and make quick decisions
+                                wherever you are.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="mw-sm mx-auto text-center">
+                            <div class="mb-6 d-flex justify-content-center align-items-center mx-auto text-white bg-success rounded"
+                                style="width: 64px; height: 64px;">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.71 7.29C21.617 7.19627 21.5064 7.12188 21.3846 7.07111C21.2627 7.02034 21.132 6.9942 21 6.9942C20.868 6.9942 20.7373 7.02034 20.6154 7.07111C20.4936 7.12188 20.383 7.19627 20.29 7.29L14 13.59L9.71 9.29C9.61704 9.19627 9.50644 9.12188 9.38458 9.07111C9.26272 9.02034 9.13201 8.9942 9 8.9942C8.86799 8.9942 8.73728 9.02034 8.61542 9.07111C8.49356 9.12188 8.38296 9.19627 8.29 9.29L2.29 15.29C2.19627 15.383 2.12188 15.4936 2.07111 15.6154C2.02034 15.7373 1.9942 15.868 1.9942 16C1.9942 16.132 2.02034 16.2627 2.07111 16.3846C2.12188 16.5064 2.19627 16.617 2.29 16.71C2.38296 16.8037 2.49356 16.8781 2.61542 16.9289C2.73728 16.9797 2.86799 17.0058 3 17.0058C3.13201 17.0058 3.26272 16.9797 3.38458 16.9289C3.50644 16.8781 3.61704 16.8037 3.71 16.71L9 11.41L13.29 15.71C13.383 15.8037 13.4936 15.8781 13.6154 15.9289C13.7373 15.9797 13.868 16.0058 14 16.0058C14.132 16.0058 14.2627 15.9797 14.3846 15.9289C14.5064 15.8781 14.617 15.8037 14.71 15.71L21.71 8.71C21.8037 8.61704 21.8781 8.50644 21.9289 8.38458C21.9797 8.26272 22.0058 8.13201 22.0058 8C22.0058 7.86799 21.9797 7.73728 21.9289 7.61542C21.8781 7.49356 21.8037 7.38296 21.71 7.29V7.29Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </div>
+                            <h3 class="font-heading fs-8 mb-4">Custom analytics</h3>
+                            <p class="mb-0 fw-medium text-secondary">Get a complete sales dashboard in the cloud. See activity,
+                                revenue and social metrics all in one place.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="mw-sm mx-auto text-center">
+                            <div class="mb-6 d-flex justify-content-center align-items-center mx-auto text-white bg-success rounded"
+                                style="width: 64px; height: 64px;">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.3 12.22C12.8336 11.7581 13.2616 11.1869 13.5549 10.545C13.8482 9.90316 14 9.20571 14 8.5C14 7.17392 13.4732 5.90215 12.5355 4.96447C11.5979 4.02678 10.3261 3.5 9 3.5C7.67392 3.5 6.40215 4.02678 5.46447 4.96447C4.52678 5.90215 4 7.17392 4 8.5C3.99999 9.20571 4.1518 9.90316 4.44513 10.545C4.73845 11.1869 5.16642 11.7581 5.7 12.22C4.30014 12.8539 3.11247 13.8775 2.27898 15.1685C1.4455 16.4596 1.00147 17.9633 1 19.5C1 19.7652 1.10536 20.0196 1.29289 20.2071C1.48043 20.3946 1.73478 20.5 2 20.5C2.26522 20.5 2.51957 20.3946 2.70711 20.2071C2.89464 20.0196 3 19.7652 3 19.5C3 17.9087 3.63214 16.3826 4.75736 15.2574C5.88258 14.1321 7.4087 13.5 9 13.5C10.5913 13.5 12.1174 14.1321 13.2426 15.2574C14.3679 16.3826 15 17.9087 15 19.5C15 19.7652 15.1054 20.0196 15.2929 20.2071C15.4804 20.3946 15.7348 20.5 16 20.5C16.2652 20.5 16.5196 20.3946 16.7071 20.2071C16.8946 20.0196 17 19.7652 17 19.5C16.9985 17.9633 16.5545 16.4596 15.721 15.1685C14.8875 13.8775 13.6999 12.8539 12.3 12.22V12.22ZM9 11.5C8.40666 11.5 7.82664 11.3241 7.33329 10.9944C6.83994 10.6648 6.45542 10.1962 6.22836 9.64805C6.0013 9.09987 5.94189 8.49667 6.05764 7.91473C6.1734 7.33279 6.45912 6.79824 6.87868 6.37868C7.29824 5.95912 7.83279 5.6734 8.41473 5.55764C8.99667 5.44189 9.59987 5.5013 10.1481 5.72836C10.6962 5.95542 11.1648 6.33994 11.4944 6.83329C11.8241 7.32664 12 7.90666 12 8.5C12 9.29565 11.6839 10.0587 11.1213 10.6213C10.5587 11.1839 9.79565 11.5 9 11.5ZM18.74 11.82C19.38 11.0993 19.798 10.2091 19.9438 9.25634C20.0896 8.30362 19.9569 7.32907 19.5618 6.45C19.1666 5.57093 18.5258 4.8248 17.7165 4.30142C16.9071 3.77805 15.9638 3.49974 15 3.5C14.7348 3.5 14.4804 3.60536 14.2929 3.79289C14.1054 3.98043 14 4.23478 14 4.5C14 4.76522 14.1054 5.01957 14.2929 5.20711C14.4804 5.39464 14.7348 5.5 15 5.5C15.7956 5.5 16.5587 5.81607 17.1213 6.37868C17.6839 6.94129 18 7.70435 18 8.5C17.9986 9.02524 17.8593 9.5409 17.5961 9.99542C17.3328 10.4499 16.9549 10.8274 16.5 11.09C16.3517 11.1755 16.2279 11.2977 16.1404 11.4447C16.0528 11.5918 16.0045 11.7589 16 11.93C15.9958 12.0998 16.0349 12.2678 16.1137 12.4183C16.1924 12.5687 16.3081 12.6967 16.45 12.79L16.84 13.05L16.97 13.12C18.1754 13.6917 19.1923 14.596 19.901 15.7263C20.6096 16.8566 20.9805 18.1659 20.97 19.5C20.97 19.7652 21.0754 20.0196 21.2629 20.2071C21.4504 20.3946 21.7048 20.5 21.97 20.5C22.2352 20.5 22.4896 20.3946 22.6771 20.2071C22.8646 20.0196 22.97 19.7652 22.97 19.5C22.9782 17.9654 22.5938 16.4543 21.8535 15.1101C21.1131 13.7659 20.0413 12.6333 18.74 11.82V11.82Z"
+                                        fill="currentColor"></path>
+                                </svg>
+                            </div>
+                            <h3 class="font-heading fs-8 mb-4">Team Management</h3>
+                            <p class="mb-0 fw-medium text-secondary">Our calendar lets you know what is happening with customer
+                                and projects so you</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="position-relative py-20 bg-white overflow-hidden"
+            style="background-image: url('https://shuffle.dev/flex-assets/elements/pattern-light.png')">
+            <div class="position-absolute top-0 start-0 h-100 w-100"
+                style="background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);"></div>
+            <div class="position-relative container" style="z-index:1;">
+                <div class="mb-16 row align-items-center g-16">
+                    <div class="col-12 col-md-6">
+                        <div class="mw-md-xl">
+                            <span class="badge mb-4 bg-success-dark text-success text-uppercase shadow">How it works</span>
+                            <h2 class="font-heading mb-4 fs-5" style="letter-spacing: -1px;">Gain more insight into how people
+                                use your</h2>
+                            <p class="mb-0 fs-9 fw-medium text-secondary">With our integrated CRM, project management,
+                                collaboration and invoicing capabilities, you can manage your business in one secure platform.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="row justify-content-center justify-content-md-end">
+                            <div class="col-auto">
+                                <div class="position-relative">
+                                    <div class="overflow-hidden rounded-5" style="max-width: 554px; height: 312px;">
+                                        <video class="h-100" poster="https://shuffle.dev/flex-assets/images/how-it-works/poster.png" muted="">
+                                            <source src="https://static.shuffle.dev/files/video-placeholder.mp4"
+                                                type="video/mp4">
+                                        </video>
+                                        <a class="position-absolute top-50 start-50 translate-middle text-success link-success"
+                                            href="#">
+                                            <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <circle cx="32" cy="32" r="32" fill="currentColor"></circle>
+                                                <path
+                                                    d="M40.5 31.13L26.5 23.05C26.348 22.9622 26.1755 22.916 26 22.916C25.8245 22.916 25.652 22.9622 25.5 23.05C25.3474 23.1381 25.2208 23.265 25.133 23.4177C25.0452 23.5705 24.9993 23.7438 25 23.92V40.08C24.9993 40.2562 25.0452 40.4295 25.133 40.5823C25.2208 40.735 25.3474 40.8619 25.5 40.95C25.652 41.0378 25.8245 41.084 26 41.084C26.1755 41.084 26.348 41.0378 26.5 40.95L40.5 32.87C40.6539 32.7828 40.7819 32.6563 40.871 32.5035C40.96 32.3506 41.007 32.1769 41.007 32C41.007 31.8231 40.96 31.6494 40.871 31.4965C40.7819 31.3437 40.6539 31.2172 40.5 31.13ZM27 38.35V25.65L38 32L27 38.35Z"
+                                                    fill="white"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-8">
+                    <div class="col-12 col-md-4">
+                        <div class="mw-md-sm">
+                            <div class="mb-4 d-flex justify-content-center align-items-center fs-9 text-white fw-semibold bg-success rounded-pill"
+                                style="width: 48px; height: 48px;">1</div>
+                            <h3 class="mb-2 font-heading fs-9">Measure your performance</h3>
+                            <p class="mb-0 text-secondary fw-medium">Stay connected with your team and make quick decisions
+                                wherever you are.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="mw-md-sm">
+                            <div class="mb-4 d-flex justify-content-center align-items-center fs-9 text-white fw-semibold bg-success rounded-pill"
+                                style="width: 48px; height: 48px;">2</div>
+                            <h3 class="mb-2 font-heading fs-9">Custom analytics</h3>
+                            <p class="mb-0 text-secondary fw-medium">Get a complete sales dashboard in the cloud. See activity,
+                                revenue and social metrics all in one place.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="mw-md-sm">
+                            <div class="mb-4 d-flex justify-content-center align-items-center fs-9 text-white fw-semibold bg-success rounded-pill"
+                                style="width: 48px; height: 48px;">3</div>
+                            <h3 class="mb-2 font-heading fs-9">Team Management</h3>
+                            <p class="mb-0 text-secondary fw-medium">Our calendar lets you know what is happening with customer
+                                and projects so you</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="mw-md-sm">
+                            <div class="mb-4 d-flex justify-content-center align-items-center fs-9 text-white fw-semibold bg-success rounded-pill"
+                                style="width: 48px; height: 48px;">4</div>
+                            <h3 class="mb-2 font-heading fs-9">Build your website</h3>
+                            <p class="mb-0 text-secondary fw-medium">A tool that lets you build a dream website even if you know
+                                nothing about web design or programming.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="mw-md-sm">
+                            <div class="mb-4 d-flex justify-content-center align-items-center fs-9 text-white fw-semibold bg-success rounded-pill"
+                                style="width: 48px; height: 48px;">5</div>
+                            <h3 class="mb-2 font-heading fs-9">Connect multiple apps</h3>
+                            <p class="mb-0 text-secondary fw-medium">The first business platform to bring together all of your
+                                products from one place.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="mw-md-sm">
+                            <div class="mb-4 d-flex justify-content-center align-items-center fs-9 text-white fw-semibold bg-success rounded-pill"
+                                style="width: 48px; height: 48px;">6</div>
+                            <h3 class="mb-2 font-heading fs-9">Easy setup</h3>
+                            <p class="mb-0 text-secondary fw-medium">End to End Business Platform, Sales Management, Marketing
+                                Automation, Help Desk</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="position-relative py-32 bg-light-light overflow-hidden"
+            style="background-image: url('https://shuffle.dev/flex-assets/elements/pattern-light.png')">
+            <div class="position-absolute top-0 start-0 h-100 w-100"
+                style="background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);"></div>
+            <div class="container">
+                <div class="position-relative" style="z-index: 10;">
+                    <div class="row align-items-xl-center g-16">
+                        <div class="col-12 col-md-6">
+                            <div class="mw-md-md">
+                                <h2 class="mb-8 fs-5 font-heading" style="letter-spacing: -1px;">Join 6,000+ startups growing
+                                    with Flex</h2>
+                                <ul class="mb-8 list-unstyled">
+                                    <li class="mb-4 d-flex align-items-start">
+                                        <img class="mt-1 me-3" src="https://shuffle.dev/flex-assets/elements/checkbox-green.svg" alt="">
+                                        <p class="mb-0 fs-9 fw-medium text-secondary">Mauris pellentesque congue libero nec</p>
+                                    </li>
+                                    <li class="mb-4 d-flex align-items-start">
+                                        <img class="mt-1 me-3" src="https://shuffle.dev/flex-assets/elements/checkbox-green.svg" alt="">
+                                        <p class="mb-0 fs-9 fw-medium text-secondary">Suspendisse mollis tincidunt</p>
+                                    </li>
+                                    <li class="d-flex align-items-start">
+                                        <img class="mt-1 me-3" src="https://shuffle.dev/flex-assets/elements/checkbox-green.svg" alt="">
+                                        <p class="mb-0 fs-9 fw-medium text-secondary">Praesent varius justo vel justo pulvinar
+                                        </p>
+                                    </li>
+                                </ul>
+                                <div class="row g-4">
+                                    <div class="col-12 col-md-auto">
+                                        <div class="bg-white rounded"><a
+                                                class="btn btn-outline-light w-100 px-7 py-4 fs-10 fw-medium text-dark border rounded shadow"
+                                                href="#">Learn More</a></div>
+                                    </div>
+                                    <div class="col-12 col-md-auto"><a
+                                            class="btn btn-success w-100 px-7 py-4 fs-10 fw-medium text-success-light rounded shadow"
+                                            href="#">Get Started</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="row justify-content-center">
+                                <div class="col-auto">
+                                    <div class="position-relative">
+                                        <img class="position-absolute top-0 end-0 mt-n14 me-n14" style="z-index: 20;"
+                                            src="https://shuffle.dev/flex-assets/elements/circle-orange.svg" alt="">
+                                        <img class="position-absolute bottom-0 start-0 ms-n12 mb-n10"
+                                            src="https://shuffle.dev/flex-assets/elements/dots-blue.svg" alt="">
+                                        <img class="position-relative img-fluid" src="https://shuffle.dev/flex-assets/images/cta/work.png"
+                                            alt="z-index: 10;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="position-relative pt-20 bg-white overflow-hidden"
+            style="background-image: url('https://shuffle.dev/flex-assets/elements/pattern-light.png')">
+            <div class="position-absolute top-0 start-0 h-100 w-100"
+                style="background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);"></div>
+            <div class="position-relative container" style="z-index:1;">
+                <div class="d-flex justify-content-center mb-2">
+                    <a href="#">
+                        <img class="img-fluid" src="https://shuffle.dev/flex-assets/logos/flex-dark-green.svg" alt="">
+                    </a>
+                </div>
+                <ul class="nav justify-content-center mb-5">
+                    <li class="nav-item"><a class="nav-link p-6 fs-9 link-secondary" href="#">Product</a></li>
+                    <li class="nav-item"><a class="nav-link p-6 fs-9 link-secondary" href="#">Features</a></li>
+                    <li class="nav-item"><a class="nav-link p-6 fs-9 link-secondary" href="#">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link p-6 fs-9 link-secondary" href="#">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link p-6 fs-9 link-secondary" href="#">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link p-6 fs-9 link-secondary" href="#">Help</a></li>
+                    <li class="nav-item"><a class="nav-link p-6 fs-9 link-secondary" href="#">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="position-relative border-bottom border-light" style="z-index: 1;"></div>
+            <div class="position-relative container" style="z-index: 1;">
+                <p class="mb-0 pt-10 pb-20 fs-9 fw-medium text-center text-secondary-light">© 2021 Flex. All rights reserved.
+                </p>
+            </div>
+        </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
